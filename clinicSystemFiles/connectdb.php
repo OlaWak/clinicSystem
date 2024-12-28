@@ -5,7 +5,7 @@ This code connects to the database for assignment2 that we are using.
 <?php
 $dbhost = "localhost";
 $dbuser= "root";
-$dbpass = "cs3319";
+$dbpass = "";
 $dbname = "assign2db";
 $connection = mysqli_connect($dbhost, $dbuser,$dbpass,$dbname);
 if (mysqli_connect_errno()) {
