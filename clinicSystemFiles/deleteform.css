@@ -1,0 +1,81 @@
+/*Programmer Name:98
+This is the CSS file for the delete patient page to style it  and use the fonts chosen by importing Google Fonts for use throughout the webpage since it didn't work for some reason to add them in the php file*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+body {
+  background-color: #f0f2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, label {
+  font-family: 'Lato', sans-serif;
+}
+
+h4 {
+  font-family: 'Merriweather', sans-serif;
+}
+
+
+table {
+  margin: 20px auto 0px;
+  border-collapse: collapse;
+  width: 100%; 
+  border: 1px solid #ddd;
+  table-layout: auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; 
+}
+
+th {
+  background-color: #004aad;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+button {
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #004aad;
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  width: 250px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input[type="radio"] {
+  margin: 5px;
+}
+
