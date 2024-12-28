@@ -1,6 +1,13 @@
 # Clinic System Website
 
 This project is a clinic management system designed to handle various tasks such as managing patients, doctors, and nurses efficiently. The system is built using PHP, MySQL, HTML, CSS, and JavaScript.
+## Overview of Some Features
+![Main Menu Screenshot](images/img1.png)
+![Patient List Screenshot](images/img2.png)
+![Nure Info Screenshot](images/img3.png)
+![Adding New Patient Screenshot](images/img4.png)
+![Doctors Info Screenshot](images/img5.png)
+
 
 ## Features
 
