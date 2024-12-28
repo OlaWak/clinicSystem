@@ -145,6 +145,7 @@ This project is a clinic management system designed to handle various tasks such
 ## Files and Structure
 
 - **PHP Files:**
+  -`connectdb.php`
   - `mainmenu.php`
   - `docform.php`
   - `docnopat.php`
